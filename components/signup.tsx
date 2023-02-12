@@ -26,7 +26,7 @@ const Signup = (props: Props) => {
 
       if (response.status === 200) {
         // sign in was successful, redirect to the home page
-        router.push("/home");
+        router.push("/quiz");
       } else {
         // sign in failed, show an error message
         console.log(response)
